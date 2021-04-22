@@ -47,7 +47,7 @@ def generate_new_session_id():
 
 def get_response(url):
     now = http_date(datetime.utcnow())
-    make_response(render_template(url, now=now))
+    return make_response(render_template(url, now=now))
 
 
 @app.route("/")
