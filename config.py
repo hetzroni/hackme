@@ -16,4 +16,3 @@ class ProductionConfig(Config):
 class DevelopmentConfig(Config):
     DEBUG = True
     DEVELOPMENT = True
-    NUM_URLS = 2
